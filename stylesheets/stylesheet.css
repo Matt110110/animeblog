@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    /* font-size: 14px; */
+    /* padding: 0px; */
+    /* margin: 0px; */
+}
+body {
+    background: url(https://images2.alphacoders.com/516/thumb-1920-516664.jpg);
+    
+}
+#headerNav {
+    border-radius: 0;
+    height: 100px;
+    background-color: black;
+}
+#footer {
+    background-color: black;
+    padding: 0;
+}
+#footer a:hover, #footer a:focus {
+  text-decoration: none;
+  color: wheat;
+}
+
+#footer a {
+  color: wheat;
+}
+#Icon {
+    height: 70px;
+    width: 70px;
+    position: relative;
+    top: -15px; 
+    float: left;
+}
+.ImpText {
+    font-family: 'Artifica', serif;
+    
+}
+.ImpText h1 {
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+#jumbo {
+    color: wheat;
+    text-align: center; 
+    font-family: 'Times New Roman', Times, serif;  
+}
+#jumboS {
+    color: whitesmoke;
+    text-align: center;
+}
+#headLink {
+    color: wheat;
+    text-decoration: none;
+    display: inline-block;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.jumbotron {
+    padding: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: wheat;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: darkslategray;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.jumbotron {
+   /* background: rgb(200, 54, 54);  This is for ie8 and below  */
+   background: rgba(0,0,0, 0.5); 
+}
+
+@media (max-width: 767px) {
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { 
+    padding-top: 10px;
+    font-size: 5vw; 
+  }
+  
+  #collapsable-nav a { 
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { 
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid black;
+    color: #951c49;
+  }
+}
