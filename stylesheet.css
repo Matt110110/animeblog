@@ -21,7 +21,10 @@ body {
   text-decoration: none;
   color: wheat;
 }
-
+#footer p {
+  color: wheat;
+  text-align: center;
+}
 #footer a {
   color: wheat;
 }
